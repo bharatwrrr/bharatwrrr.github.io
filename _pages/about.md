@@ -7,10 +7,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![DALL.E 3's attempt at illustrating AI and Cars shaking hands](/images/nn_car2.png){: .align-right width="300px"; border: 2px solid #000; padding: 10px; margin: 10px; box-shadow: 5px 5px 10px #888888}
+![DALL.E 3's attempt at illustrating AI and Cars shaking hands](/images/nn_car2.png){: .align-right width="300px"; border: "2px solid #000"; margin: "10px";}
 🙇🏻 I am currently playing the Ph.D. game at the University of Minnesota.
 
 🔬 I leverage machine learning models to make vehicular systems more efficient. 
+
+🏎️ I used to build formula-style race cars for national and international Formula SAE competitions.
+
+The Ph.D. Game
+As a third year Ph.D. candidate at the University of Minnesota, my academic journey is characterized by a deep dive into the world of machine learning and its application in the automotive industry. My research focuses on developing models to enhance the efficiency and sustainability of vehicular systems. I am currently working under the advisement of [Dr. William Northrop](https://cse.umn.edu/me/william-northrop) of the Mechanical Engineering Department and the co-advisement of [Dr. Shashi Shekhar](https://cse.umn.edu/cs/shashi-shekhar) of the Computer Science and Engineering Department at the University of Minnesota. 
+<!-- This journey is not just about acquiring knowledge; it's about pushing the boundaries of what's possible in automotive technology.  -->
 
 
 
