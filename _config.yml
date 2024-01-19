@@ -11,9 +11,9 @@ title                    : "Bharat Jayaprakash"
 title_separator          : "-"
 name                     : &name "Bharat Jayaprakash"
 description              : &description "I love neural nets and cars"
-url                      : https://bjw.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://bharatjayaprakash.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "bjwio/bharatjayaprakash.github.io"
+repository               : "bharatjayaprakash/bharatjayaprakash.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
