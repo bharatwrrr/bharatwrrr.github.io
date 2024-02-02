@@ -9,7 +9,7 @@ location: "New York, NY"
 excerpt: "I gave a talk on my published article titled 'Towards Carbon-Aware Spatial Computing: Challenges and Opportunities' at the I-GUIDE Forum 2023, hosted by Columbia University, NY..."
 
 ---
-![Towards Carbon-Aware Spatial Computing: Opportunities and Challenges](/images/I-GUIDE-pic.png){: .align-right width="800px"
+![Towards Carbon-Aware Spatial Computing: Opportunities and Challenges](/images/I-GUIDE-pic.jpg){: .align-right width="800px"
 <!-- ; border: "2px solid #000"; margin: "10px"; -->
 }
 I gave a talk on my published article titled '[Towards Carbon-Aware Spatial Computing: Challenges and Opportunities](https://docs.lib.purdue.edu/iguide/2023/presentations/14/)' at the [I-GUIDE Forum 2023](https://iguide.illinois.edu/forum-2023/), hosted by Columbia University, NY. The Forum's theme was 'Harnessing the Geospatial Data Revolution for Sustainability Solutions'. 
