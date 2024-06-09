@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "personal.png"
+  avatar           : "personalv2.png"
   bio              : *description
   location         : "Minneapolis, Minnesota, US"
   employer         :
