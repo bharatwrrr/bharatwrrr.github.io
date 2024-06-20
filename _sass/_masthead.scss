@@ -80,10 +80,17 @@
 }
 
 // Media query for small devices
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 499px) {
   .masthead__menu-item--lg img {
-    margin-left: 50px; /* Adjust margin for smaller screens */
-    max-height: 20px; /* Adjust the height for smaller screens */
+    margin-left: 60px; /* Adjust margin for smaller screens */
+    max-height: 30px; /* Adjust the height for smaller screens */
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  .masthead__menu-item--lg img {
+    margin-left: 60px; /* Adjust margin for smaller screens */
+    max-height: 30px; /* Adjust the height for smaller screens */
   }
 }
 
@@ -91,7 +98,7 @@
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .masthead__menu-item--lg img {
     margin-left: 60px; /* Adjust margin for tablet screens */
-    max-height: 25px; /* Adjust the height for tablet screens */
+    max-height: 30px; /* Adjust the height for tablet screens */
   }
 }
 
