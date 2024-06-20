@@ -49,16 +49,26 @@
   white-space: nowrap;  
 
   &--lg {
-    padding-right: 2em;
+    margin-right: 2em;
+    padding-left: 2em;
     font-weight: 700;
+    font-size: larger;
     font-style: normal;
     // font-family: 'magic-saturday';
   
   }
+  // &--lg_img {
+  //   padding-right: 2em;
+  //   font-weight: 700;
+  //   font-style: normal;
+  //   // font-family: 'magic-saturday';
+  
+  // }
 
 }
-.masthead__menu-item--lg img {
+.masthead__menu-item--lg img{
+  margin-left: -30px;
   max-height: 40px; /* Adjust the height as needed */
   width: auto;
-  margin-left: 0px;
+  // margin-left: 0px;
 }
