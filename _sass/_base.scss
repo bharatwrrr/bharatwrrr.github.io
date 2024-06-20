@@ -313,3 +313,89 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding-bottom: 5em; /* Adjust as necessary */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1.5em 0 0.5em;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  blockquote {
+    margin: 1.5em 0.5em;
+  }
+
+  figure {
+    margin: 1.5em 0;
+  }
+
+  ul li,
+  ol li {
+    margin-bottom: 0.3em;
+  }
+  
+  /* Additional styles for mobile responsiveness */
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  body {
+    padding-bottom: 7em; /* Adjust as necessary */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1.75em 0 0.5em;
+  }
+
+  p {
+    margin-bottom: 1.2em;
+  }
+
+  blockquote {
+    margin: 1.75em 0.75em;
+  }
+
+  figure {
+    margin: 1.75em 0;
+  }
+
+  ul li,
+  ol li {
+    margin-bottom: 0.4em;
+  }
+  
+  /* Additional styles for tablet responsiveness */
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    padding-bottom: 8em; /* Adjust as necessary */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1.75em 0 0.5em;
+  }
+
+  p {
+    margin-bottom: 1.3em;
+  }
+
+  blockquote {
+    margin: 1.75em 1em;
+  }
+
+  figure {
+    margin: 1.75em 0;
+  }
+
+  ul li,
+  ol li {
+    margin-bottom: 0.5em;
+  }
+  
+  /* Additional styles for desktop responsiveness */
+}
