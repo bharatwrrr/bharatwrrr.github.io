@@ -1,0 +1,11 @@
+// scss file created to define font-family for magic saturday font for website logo.
+
+@import 'variables';
+
+@font-face {
+    font-family: 'magic-saturday';
+    src: url('#{$fa-font-path}/MagicSaturday.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

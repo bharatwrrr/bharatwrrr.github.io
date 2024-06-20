@@ -29,10 +29,10 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -54,6 +54,7 @@ google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
+
 
 # Social Sharing
 twitter:
@@ -81,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "personalv2.JPG"
+  avatar           : "personal_real.jpg"
   bio              : *description
   location         : "Minneapolis, Minnesota, US"
   employer         :
@@ -152,6 +153,8 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+# Build settings
+theme: minimal-mistakes-jekyll
 
 # Conversion
 markdown: kramdown
@@ -160,6 +163,7 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+remote_theme: "mmistakes/minimal-mistakes@4.26.1"
 
 # Markdown Processing
 kramdown:
@@ -265,6 +269,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-remote-theme
+  - jekyll-include-cache
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate

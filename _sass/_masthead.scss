@@ -1,6 +1,7 @@
 /* ==========================================================================
    MASTHEAD
    ========================================================================== */
+@import "vendor/font-awesome/logo-font";
 
 .masthead {
   position: relative;
@@ -10,6 +11,7 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
+  margin-left: -100px;
 
   &__inner-wrap {
     @include container;
@@ -44,10 +46,19 @@
 .masthead__menu-item {
   display: block;
   list-style-type: none;
-  white-space: nowrap;
+  white-space: nowrap;  
 
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+    font-style: normal;
+    // font-family: 'magic-saturday';
+  
   }
+
+}
+.masthead__menu-item--lg img {
+  max-height: 40px; /* Adjust the height as needed */
+  width: auto;
+  margin-left: 0px;
 }

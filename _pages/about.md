@@ -14,16 +14,19 @@ redirect_from:
 
 🔬 I leverage machine learning models to make vehicular systems more efficient. 
 
-🏎️ I used to build formula-style race cars for national and international Formula SAE competitions.
+🏎️ I used to help build formula-style race cars for national and international Formula SAE competitions.
+
+✍️ I am experimenting writing online. 
+
 
 The Ph.D. Game
 ======
-As a third year Ph.D. candidate at the University of Minnesota, my academic journey is characterized by a deep dive into the world of machine learning and its application in the automotive industry. My research focuses on developing models to enhance the efficiency and sustainability of vehicular systems. I am currently working under the advisement of [Dr. William Northrop](https://cse.umn.edu/me/william-northrop) of the Mechanical Engineering Department and the co-advisement of [Dr. Shashi Shekhar](https://cse.umn.edu/cs/shashi-shekhar) of the Computer Science and Engineering Department at the University of Minnesota. 
+I am a mechanical engineering Ph.D. candidate at the University of Minnesota. I research the world of machine learning and its applications in the automotive industry. My research focuses on developing models to enhance the efficiency and sustainability of vehicular systems. I am currently working under the advisement of [Dr. William Northrop](https://cse.umn.edu/me/william-northrop) of the Mechanical Engineering Department and the co-advisement of [Dr. Shashi Shekhar](https://cse.umn.edu/cs/shashi-shekhar) of the Computer Science and Engineering Department at the University of Minnesota. 
 <!-- This journey is not just about acquiring knowledge; it's about pushing the boundaries of what's possible in automotive technology.  -->
 
 Research
 ======
-this is the start of the research description section
+This is the second try for change check.
 
 
 
