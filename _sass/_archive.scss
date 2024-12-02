@@ -15,10 +15,10 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -26,6 +26,7 @@
     }
   }
 }
+
 
 .archive__subtitle {
   margin: 1.414em 0 0;
@@ -40,8 +41,27 @@
 }
 
 .archive__item-title {
+  margin-top: 1em; // Reduced top margin
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  // font-family: 'Roboto', sans-serif;
+  // font-family: $sans-serif;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline; // Optional: Add underline on hover
+    font-size: $type-size-4; // Optional: Increase font size on hover
+  }
+
+  a {
+    color: #1b3fa2; // Set your desired color here
+    text-decoration: none; // Remove underline
+    opacity: 0.8;
+
+    &:hover {
+      text-decoration: underline; // Optional: Add underline on hover
+      font-size: $type-size-4; // Optional: Increase font size on hover
+    }
+  }
 
   a + a {
     opacity: 0.5;
@@ -59,10 +79,12 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-7;
+  text-decoration: none;
 
   & + p {
     text-indent: 0;
+    font-size: $type-size-6;
   }
 }
 
@@ -74,16 +96,87 @@
   }
 }
 
-.archive__item:hover {
+.archive__item {
+  padding: 0.5em 1em 0.5em 1em; // Reduced top padding
+  margin-bottom: 2em;
+  border: 1px solid $border-color;
+  border-radius: 10px; // Rounded edges
+  background-color: #f9f9f9; // Optional: Background color
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Optional: Box shadow for a subtle effect
+  transition: transform 0.3s ease, box-shadow 0.3s ease; // Smooth transition for transform and box-shadow
+
+  &:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); // Add a stronger box shadow on hover
+    // transform: scale(1.05); // Enlarge the box along with its contents on hover
+  }
+
   .archive__item-teaser {
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
-
-  .archive__item-title {
-    text-decoration: underline;
-  }
 }
 
+
+.archive__item-link {
+  text-decoration: none; // Remove underline from the entire box link
+  color: inherit; // Inherit color from parent
+  display: block; // Ensure the link covers the entire box
+
+  .archive__item {
+    padding: 0.5em 1em 1em 1em; // Reduced top padding
+    margin-bottom: 1em;
+    border: 1px solid $border-color;
+    border-radius: 10px; // Rounded edges
+    background-color: #f9f9f9; // Optional: Background color
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Optional: Box shadow for a subtle effect
+
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Add a stronger box shadow on hover
+
+      .archive__item-teaser {
+        box-shadow: 0 0 10px rgba(#000, 0.25);
+      }
+      .archive__item-title {
+        text-decoration: underline; // Add underline on hover
+        font-size: $type-size-4; // Increase font size on hover
+      }
+    }
+    .archive__item-excerpt {
+      text-decoration: none; // Remove underline from the excerpt
+      font-size: $type-size-7; // Set the desired font size
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .archive__item-title {
+    margin-top: 0.25em; // Reduced top margin
+    margin-bottom: 0.25em;
+    color: $link-color-hover; // Set your desired color here
+    text-decoration: none; // Remove underline
+    opacity: 0.8;
+
+    a {
+      color: $link-color-hover; // Set your desired color here
+      text-decoration: none; // Remove underline
+      opacity: 0.8;
+
+      &:hover {
+        text-decoration: underline; // Optional: Add underline on hover
+        font-size: $type-size-4; // Optional: Increase font size on hover
+      }
+    }
+
+    a + a {
+      opacity: 0.5;
+    }
+  }
+}
 
 /*
    List view
@@ -102,6 +195,7 @@
     padding-right: $right-sidebar-width-wide;
   }
 
+
   .page__meta {
     margin: 0 0 4px;
   }
@@ -114,6 +208,8 @@
 
 .grid__item {
   margin-bottom: 2em;
+  height: 300px; // Set a fixed height for grid items
+  overflow: hidden; // Ensure content does not overflow
 
   .page__meta {
     margin: 0 0 4px;
@@ -125,28 +221,31 @@
   }
 
   .archive__item-excerpt {
-    display: none;
+    display: block; // Ensure the excerpt is displayed
+    overflow: hidden; // Hide overflow text
+    text-overflow: ellipsis; // Add ellipsis for overflow text
+    white-space: nowrap; // Prevent text from wrapping
   }
 
   @include breakpoint($small) {
     @include gallery(5 of 10);
     .archive__item-teaser {
-      max-height: 200px;
+      max-height: 120px;
     }
   }
 
   @include breakpoint($medium) {
     margin-left: 0; /* reset before mixin does its thing*/
     margin-right: 0; /* reset before mixin does its thing*/
-    @include gallery(2.5 of 10);
+    @include gallery(5 of 10);
 
     .archive__item-teaser {
-      max-height: 120px;
+      max-height: 200px;
     }
 
     .archive__item-excerpt {
       display: block;
-      font-size: $type-size-6;
+      font-size: $type-size-7;
     }
   }
 }

@@ -30,15 +30,15 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   margin-top: 0;
-  font-size: $type-size-3;
-}
-
-h2 {
   font-size: $type-size-4;
 }
 
-h3 {
+h2 {
   font-size: $type-size-5;
+}
+
+h3 {
+  font-size: $type-size-6;
 }
 
 h4 {
@@ -58,7 +58,9 @@ small, .small {
 }
 
 p {
+  font-size: $type-size-5;
   margin-bottom: 1.3em;
+  text-decoration: none;
 }
 
 u,
@@ -112,6 +114,7 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
