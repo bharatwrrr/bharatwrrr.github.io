@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![DALL.E 3's attempt at illustrating AI and Cars shaking hands](/images/nn_car2.png){: .align-right width="300px"
-<!-- ; border: "2px solid #000"; margin: "10px"; -->
-}
+<!-- ![DALL.E 3's attempt at illustrating AI and Cars shaking hands](/images/nn_car2.png){: .align-right width="300px"
+<!-- ; border: "2px solid #000"; margin: "10px"; 
+} -->
 🙇🏻 I am currently playing the Ph.D. game at the University of Minnesota.
 
 🔬 I leverage machine learning models to make vehicular systems more efficient. 
